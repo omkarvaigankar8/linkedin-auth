@@ -29,7 +29,7 @@ function SignIn({ providers }) {
                             <ContentBox>
                                 <Typography variant='h5'>Unlock  Exclusive Features and Network Opportunities!</Typography>
                                 <Typography variant='h6'>Why Login with LinkedIn?</Typography>
-                                <Typography variant='p'>Connect with a single click and experience a personalized journey on Linkedin. We've partnered with LinkedIn to enhance your experience and offer you exclusive benefits.</Typography>
+                                <Typography variant='p'>Connect with a single click and experience a personalized journey on Linkedin. We have partnered with LinkedIn to enhance your experience and offer you exclusive benefits.</Typography>
                                 {Object.values(providers).map((provider) => (
                                     <Box key={provider.id}>
                                         <Button fullWidth={true} color='primary' variant='contained' onClick={() => signIn(provider.id)}>

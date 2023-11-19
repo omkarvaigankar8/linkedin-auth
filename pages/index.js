@@ -15,10 +15,10 @@ export default function Home() {
       <Container className={styles.container}>
         <Grid item xs={12} md={12} sx={{ marginTop: { md: '4rem', xs: '2rem' } }}>
           <Typography variant='h3'>Something About Us</Typography>
-          <Typography variant='body1'>If you're going to be building or selling products or services, you're going to get asked questions...
-            Skillbuilder is a product built out of maad labs to help users easily identify commonly asked questions and crowdsource their teams for the best answers. SkillBuilder is the simplest way to organize a database and visualize all the questions you're getting asked by colleagues, prospects, and clients, in one easy-to-search place.</Typography>
-          <Typography variant='body1'>If you're going to be building or selling products or services, you're going to get asked questions...
-            Skillbuilder is a product built out of maad labs to help users easily identify commonly asked questions and crowdsource their teams for the best answers. SkillBuilder is the simplest way to organize a database and visualize all the questions you're getting asked by colleagues, prospects, and clients, in one easy-to-search place.</Typography>
+          <Typography variant='body1'>If you are going to be building or selling products or services, you are going to get asked questions...
+            Skillbuilder is a product built out of maad labs to help users easily identify commonly asked questions and crowdsource their teams for the best answers. SkillBuilder is the simplest way to organize a database and visualize all the questions you are getting asked by colleagues, prospects, and clients, in one easy-to-search place.</Typography>
+          <Typography variant='body1'>If you are going to be building or selling products or services, you are going to get asked questions...
+            Skillbuilder is a product built out of maad labs to help users easily identify commonly asked questions and crowdsource their teams for the best answers. SkillBuilder is the simplest way to organize a database and visualize all the questions you are getting asked by colleagues, prospects, and clients, in one easy-to-search place.</Typography>
         </Grid>
         <ImageCollage />
       </Container>
