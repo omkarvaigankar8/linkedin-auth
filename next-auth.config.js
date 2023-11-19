@@ -20,7 +20,7 @@ export default {
             },
             clientId: process.env.LINKEDIN_CLIENT_ID,
             clientSecret: process.env.LINKEDIN_CLIENT_SECRET,
-            callbackUrl: 'https://linkedin-auth-yhsu.vercel.app/api/auth/callback/linkedin'
+            callbackUrl: 'http://localhost:3000/api/auth/callback/linkedin'
         },
     ],
 };
